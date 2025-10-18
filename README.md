@@ -39,5 +39,5 @@ It goes beyond traditional tools like Slither or Mythril — by introducing **AI
 
 ---
 
-### 🏗️ Project Structure
+
 
