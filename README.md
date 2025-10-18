@@ -1,4 +1,5 @@
-<h1 align="center">🧠 SentinelAI</h1>
+<h1 align="center">🧠 Smart-Contract-Analyzer
+</h1>
 <p align="center">
   <b>Autonomous AI-Powered Smart Contract Security Auditor</b><br>
   Multi-Agent · LLM Reasoning · Graph Neural Networks · Static Analysis
