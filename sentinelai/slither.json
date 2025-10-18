@@ -1,0 +1,291 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.8.0",
+            "source_mapping": {
+              "start": 32,
+              "length": 23,
+              "filename_relative": "contracts/sample.sol",
+              "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+              "filename_short": "contracts/sample.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (contracts/sample.sol#2)\n",
+        "markdown": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- [^0.8.0](contracts/sample.sol#L2)\n",
+        "first_markdown_element": "contracts/sample.sol#L2",
+        "id": "49997373076f0555a06a98f0b8fbc803e1ad01d3d694aef871b6b384244ba4ac",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 218,
+              "length": 376,
+              "filename_relative": "contracts/sample.sol",
+              "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+              "filename_short": "contracts/sample.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 57,
+                  "length": 539,
+                  "filename_relative": "contracts/sample.sol",
+                  "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+                  "filename_short": "contracts/sample.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(success,None) = msg.sender.call{value: _amount}()",
+            "source_mapping": {
+              "start": 488,
+              "length": 54,
+              "filename_relative": "contracts/sample.sol",
+              "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+              "filename_short": "contracts/sample.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 9,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 218,
+                  "length": 376,
+                  "filename_relative": "contracts/sample.sol",
+                  "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+                  "filename_short": "contracts/sample.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 57,
+                      "length": 539,
+                      "filename_relative": "contracts/sample.sol",
+                      "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+                      "filename_short": "contracts/sample.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Vault.withdraw(uint256) (contracts/sample.sol#11-19):\n\t- (success,None) = msg.sender.call{value: _amount}() (contracts/sample.sol#17)\n",
+        "markdown": "Low level call in [Vault.withdraw(uint256)](contracts/sample.sol#L11-L19):\n\t- [(success,None) = msg.sender.call{value: _amount}()](contracts/sample.sol#L17)\n",
+        "first_markdown_element": "contracts/sample.sol#L11-L19",
+        "id": "7786f352d3b331aebca70b960c5a309d95bec2ef1256bdb2663eeb846de53c53",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 236,
+              "length": 15,
+              "filename_relative": "contracts/sample.sol",
+              "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+              "filename_short": "contracts/sample.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 23,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 218,
+                  "length": 376,
+                  "filename_relative": "contracts/sample.sol",
+                  "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+                  "filename_short": "contracts/sample.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 57,
+                      "length": 539,
+                      "filename_relative": "contracts/sample.sol",
+                      "filename_absolute": "/Users/adityasingh/Smart-Contract-Analyzer/sentinelai/contracts/sample.sol",
+                      "filename_short": "contracts/sample.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vault.withdraw(uint256)._amount (contracts/sample.sol#11) is not in mixedCase\n",
+        "markdown": "Parameter [Vault.withdraw(uint256)._amount](contracts/sample.sol#L11) is not in mixedCase\n",
+        "first_markdown_element": "contracts/sample.sol#L11",
+        "id": "eb637344fa5412f56b00738d09c03c47d8f386f61a7d29a10f6f0e237c74ab82",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

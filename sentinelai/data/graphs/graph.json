@@ -1,0 +1,16 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "visibility": "public",
+      "id": "deposit"
+    },
+    {
+      "visibility": "public",
+      "id": "withdraw"
+    }
+  ],
+  "edges": []
+}

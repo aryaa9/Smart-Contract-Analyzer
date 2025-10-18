@@ -1,0 +1,12 @@
+torch
+torch-geometric
+networkx
+slither-analyzer
+groq
+python-dotenv
+langgraph
+fastapi
+uvicorn
+weasyprint
+pandas
+matplotlib
