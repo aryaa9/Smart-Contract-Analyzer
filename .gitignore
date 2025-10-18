@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.local
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+
+# Node / Hardhat
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+.cache/
+artifacts/
+cache/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Outputs
+sentinelai/data/graphs/
+sentinelai/data/reports/
+
+# Hardhat local db (if used)
+hardhat.config.tsbuildinfo
